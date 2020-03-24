@@ -14,6 +14,27 @@
           <Anchor point="RIGHT" relativeKey="$parent.Inset" relativePoint="RIGHT" />
         </Anchors>
       </Frame>
+
+      <ScrollFrame parentKey="ScrollFrame" inherits="HybridScrollFrameTemplate">
+        <Anchors>
+          <Anchor point="TOPLEFT" relativeKey="$parent.HeaderContainer" relativePoint="BOTTOMLEFT" x="0" y="-6"/>
+          <Anchor point="RIGHT" relativeKey="$parent.HeaderContainer" relativePoint="RIGHT" x="-20" />
+          <Anchor point="BOTTOM" relativeKey="$parent.Inset" relativePoint="BOTTOMRIGHT" y="17" />
+        </Anchors>
+        <Frames>
+          <Slider parentKey="scrollBar" inherits="HybridScrollBarTemplate">
+            <Anchors>
+              <Anchor point="TOPLEFT" relativeKey="$parent" relativePoint="TOPRIGHT" />
+              <Anchor point="BOTTOMLEFT" relativeKey="$parent" relativePoint="BOTTOMRIGHT" />
+            </Anchors>
+            <Layers>
+              <Layer level="BACKGROUND">
+                <Texture parentKey="Background" file="Interface\FrameGeneral\UI-Background-Marble" horizTile="true" vertTile="true" setAllPoints="true"/>
+              </Layer>
+            </Layers>
+          </Slider>
+        </Frames>
+      </ScrollFrame>
     </Frames>
   </Frame>
 </Ui>
