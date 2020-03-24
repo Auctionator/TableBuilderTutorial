@@ -5,5 +5,15 @@
     <Anchors>
       <Anchor point="CENTER" />
     </Anchors>
+
+    <Frames>
+      <Frame parentKey="HeaderContainer">
+        <Size y="30" />
+        <Anchors>
+          <Anchor point="TOPLEFT" relativeKey="$parent.Inset" relativePoint="TOPLEFT" />
+          <Anchor point="RIGHT" relativeKey="$parent.Inset" relativePoint="RIGHT" />
+        </Anchors>
+      </Frame>
+    </Frames>
   </Frame>
 </Ui>
