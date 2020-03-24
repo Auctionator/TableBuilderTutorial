@@ -1,0 +1,9 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Frame name="TableBuilderTutorialFrame" inherits="SimplePanelTemplate" parent="UIParent" mixin="TableBuilderTutorialMixin">
+    <Size x="600" y="400" />
+
+    <Anchors>
+      <Anchor point="CENTER" />
+    </Anchors>
+  </Frame>
+</Ui>

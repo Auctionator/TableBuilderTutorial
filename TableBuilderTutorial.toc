@@ -1,0 +1,8 @@
+## Interface: 80300
+## Title: Auctionator
+## Version: 1.0.0
+## Author: Borjamacare
+
+Source\Manifest.xml
+
+TableBuilderTutorial.xml
