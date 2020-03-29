@@ -1,0 +1,9 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Frame name="TBTTableRowTemplate" mixin="TBTTableRowMixin" enableMouse="true" virtual="true">
+    <Size y="16"/>
+    <Anchors>
+      <Anchor point="TOPLEFT"/>
+      <Anchor point="TOPRIGHT"/>
+    </Anchors>
+  </Frame>
+</Ui>

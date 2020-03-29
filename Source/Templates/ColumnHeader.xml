@@ -1,0 +1,11 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Frame name="TBTColumnHeaderTemplate" mixin="TBTColumnHeaderMixin" inherits="ColumnDisplayButtonShortTemplate" parentKey="header" enableMouse="true" virtual="true">
+    <Size y="19"/>
+
+    <Scripts>
+      <OnClick method="OnClick" />
+      <OnEnter method="OnEnter" />
+      <OnLeave method="OnLeave" />
+    </Scripts>
+  </Frame>
+</Ui>

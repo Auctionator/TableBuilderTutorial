@@ -1,7 +1,10 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-  <Script file="TBTTableRowMixin.lua"/>
+  <Script file="AnimalCell.lua"/>
 
-  <Script file="TBTTableBuilderMixin.lua"/>
+  <Script file="ColumnHeader.lua"/>
+  <Script file="TableRow.lua"/>
 
-  <Script file="TableBuilderTutorialMixin.lua" />
+  <Script file="TableBuilder.lua"/>
+
+  <Script file="MainFrame.lua" />
 </Ui>

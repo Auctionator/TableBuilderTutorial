@@ -1,5 +1,7 @@
 <!-- Source directory manifest -->
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Script file="TableData.lua" />
+
   <Include file="Mixins\Manifest.xml" />
   <Include file="Templates\Manifest.xml" />
 </Ui>
