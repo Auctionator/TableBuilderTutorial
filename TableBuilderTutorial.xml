@@ -2,6 +2,10 @@
   <Frame name="TableBuilderTutorialFrame" inherits="SimplePanelTemplate" parent="UIParent" mixin="TableBuilderTutorialMixin">
     <Size x="600" y="400" />
 
+    <Scripts>
+      <OnLoad method="OnLoad" />
+    </Scripts>
+
     <Anchors>
       <Anchor point="CENTER" />
     </Anchors>

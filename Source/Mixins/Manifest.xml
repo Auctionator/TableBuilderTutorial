@@ -1,3 +1,7 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Script file="TBTTableRowMixin.lua"/>
+
+  <Script file="TBTTableBuilderMixin.lua"/>
+
   <Script file="TableBuilderTutorialMixin.lua" />
 </Ui>
