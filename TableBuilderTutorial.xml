@@ -14,7 +14,7 @@
 
     <Frames>
       <Frame parentKey="HeaderContainer">
-        <Size y="30" />
+        <Size y="19" />
         <Anchors>
           <Anchor point="TOPLEFT" relativeKey="$parent.Inset" relativePoint="TOPLEFT" />
           <Anchor point="RIGHT" relativeKey="$parent.Inset" relativePoint="RIGHT" />
