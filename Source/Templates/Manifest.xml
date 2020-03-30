@@ -1,5 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-  <Include file="AnimalCell.xml" />
+  <Include file="Cells.xml" />
 
   <Include file="ColumnHeader.xml" />
 

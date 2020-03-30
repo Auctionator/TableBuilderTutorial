@@ -1,5 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-  <Script file="AnimalCell.lua"/>
+  <Script file="Cells.lua"/>
 
   <Script file="ColumnHeader.lua"/>
   <Script file="TableRow.lua"/>

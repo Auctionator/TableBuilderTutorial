@@ -1,0 +1,16 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Frame name="TBTTextCellTemplate" mixin="TBTTextCellMixin" parentKey="cell" enableMouse="true" virtual="true">
+    <Size y="16" x="150" />
+
+    <Layers>
+      <Layer level="BACKGROUND">
+        <FontString parentKey="text" inherits="Game12Font" setAllPoints="true"/>
+      </Layer>
+    </Layers>
+
+    <Scripts>
+      <OnEnter method="OnEnter"/>
+      <OnLeave method="OnLeave"/>
+    </Scripts>
+  </Frame>
+</Ui>

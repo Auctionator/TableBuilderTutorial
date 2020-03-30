@@ -14,4 +14,8 @@ for index, value in ipairs(ANIMALS) do
   }
 end
 
-
+TableBuilderTutorial.SortData = function(sortIndex)
+    table.sort(TableBuilderTutorial.Data, function(lhs, rhs)
+      return string.upper(lhs[sortIndex]) < string.upper(rhs[sortIndex])
+    end)
+end

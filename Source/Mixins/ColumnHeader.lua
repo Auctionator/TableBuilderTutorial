@@ -4,34 +4,19 @@
 --   2. Populate(rowData, dataIndex)
 TBTColumnHeaderMixin = CreateFromMixins(TableBuilderElementMixin)
 
-function TBTColumnHeaderMixin:Init(...)
-  print(
-    LIGHTBLUE_FONT_COLOR:WrapTextInColorCode("ColumnHeader:Init()", ...)
-  )
+function TBTColumnHeaderMixin:Init(name, tooltipText, sortIndex)
+  self.tooltipText = tooltipText
+  self.sortIndex = sortIndex
 
-  -- self.sortType = sortType
-  -- self.tooltipText = tooltipText
+  self:SetText(name)
 
-  -- self.text:SetText(headerText)
-  self:SetText("Hello")
-
-  local width = self:GetWidth()
-  local textWidth = self:GetTextWidth() + 40 -- 40 for padding
-  self:SetWidth(math.max(width, textWidth))
-
-  -- local width = self.Text:GetStringWidth()
-  -- local maxColumnWidth = 150
-  -- self.Text:SetWidth(math.min(width, maxColumnWidth))
-
-  -- local wrappedWidth = self.Text:GetWrappedWidth()
-  -- self.Text:SetWidth(wrappedWidth)
-  -- self:SetWidth(wrappedWidth)
+  self:SetWidth(250)
 end
 
 -- Implementing mouse events for sorting
 function TBTColumnHeaderMixin:OnClick()
-  if self.sortType then
-    -- TODO Want to implement a sort for our data provider...
+  if self.sortIndex then
+    TableBuilderTutorial.SortData(self.sortIndex)
   end
 
   PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON)
